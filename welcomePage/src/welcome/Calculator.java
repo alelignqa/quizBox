@@ -1,6 +1,6 @@
 package welcome;
 
-import java.io.Console;
+
 import java.sql.Date;
 
 public class Calculator {
@@ -42,7 +42,8 @@ public class Calculator {
 	
 	public void testStatic() {
 	//	static int i; //Illegal modifier for parameter i; only final is permitted
-		final int i;
+		final int I = 10;
+		System.out.println(I);
 		
 		
 	}
